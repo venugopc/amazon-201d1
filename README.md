@@ -1,6 +1,6 @@
 # amazon-201d1
 
-Class repo for amazon-201d1 with lead instructor Brian Nations.  The course outline is as follows:
+Class repo for amazon-201d1 with principal instructor Brian Nations.  The course outline is as follows:
 
 Module       | Topic
 -------------|---------------
