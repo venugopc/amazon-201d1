@@ -23,5 +23,5 @@ Please refer to the [Code 201 Prework Repository](https://github.com/codefellows
 
 * VSCode
 * Git
-* OSX, Linux, or Windows with Git-Bash installed.
+* OSX, Linux, Windows with a sub system of Linux (WSL), or Git-Bash installed.
 * Chrome Browser
