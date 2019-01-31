@@ -1,25 +1,12 @@
 # Class 1: Introduction to the Tools and Fundamentals of Development
 
-<a id="top"></a>
-## Lecture 1
-
 ## Today's Schedule
-This first day of class is an all-day session with the students that is mostly lecture. Note: this is not our typical class schedule. 
-
-- [Kickoff!](#kickoff) *[30 minutes]*
-- [Academic Overview](#academic) *[60 minutes]*
-- [Unix & Git](#ug) *[60 minutes]*
-- [Go over the assigned readings](#readings) *[30 minutes]*
-
-*Lunch Break*
-
-- [Continuing going over the assigned readings](#readings) *[30-60 minutes]*
-- Discuss Career Coaching assignments
-- [Set up a JavaScript linter](#linter) *[15 minutes after Unix/Git is finished]*
-- [Verify Student Toolbelts](#toolbelt) *[30-45 minutes]*
-- [Code demo to prep for lab](#code) *[60 minutes]*
-- [LAB](#lab)
-  - Write code as outlined in the lab assignment
+- Academic Overview
+- Verify Toolbelts & Configure Linters
+- Terminal Basics 101
+- Intro to HTML
+- Intro to Working with JS
+- Assignment Prep
 
 **Learning Objectives**
 
@@ -27,8 +14,8 @@ As a result of completing Lecture 1 of Code 201, students will be able to:
 - create a HTML page from scratch, with proper HTML5 hierarchical structure conventions, as demonstrated by successful completion of the daily code assignment
 - properly include a \<script> tag in an HTML document that will interact with the user via prompt/alert, as demonstrated by successful completion of the daily code assignment
 - write JavaScript that will interact with the user via prompt/alert, as demonstrated by successful completion of the daily code assignment
-- use the command line to create and change directories, create and list files, and open files in a text editor and in a web browser, as demonstrated by successful completion of the daily code assignment
-- install & use plugins for their text editor, including a minimap and a JavaScript linter, as measured by observations of the instructional staff
+- use the command line to create and change directories, create and list files, and open files in a text editor and in a web browser, as demonstrated by successful completion of the Friday code assignment
+- install & use plugins for their text editor, including a JavaScript linter, as measured by observations of the instructional staff
 
 ## Readings
 
@@ -38,23 +25,9 @@ As a result of completing Lecture 1 of Code 201, students will be able to:
 - HTML Chapter 18: "Process & Design"
 - JS Chatper 1: "The ABC of Programming"
 
-<a id="kickoff"></a>
-
-## Kickoff!
-
-This is the welcome and introduction to Code Fellows. Students will meet the campus manager and learn about campus operations and policies.
-
-[-top-](#top)
-
-<a id="academic"></a>
-
 ## Academic Overview
 
 The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at Code Fellows.
-
-[-top-](#top)
-
-<a id="toolbelt"></a>
 
 ## Verify Student Toolbelts
 
@@ -65,23 +38,12 @@ By doing a few quick tests and exercises, as detailed below, we will ensure that
 - Git: enter `which git` in the command line to verify installation
 - Directory structure: together we will set up a directory at ~/codefellows/201/ in which you will store your classwork. We will go over directory structure in general and compare it to GUI
 
-
-[-top-](#top)
-
-<a id="ug"></a>
-
-## Unix & Git
+## Unix & The Terminal
 
 Introduction to core the concepts of file management from the command line and the fundamentals of Git and GitHub.
 
-[-top-](#top)
-
-<a id="linter"></a>
-
 ## Set up a JavaScript linter
 Students should open a new tab in their terminal and type `cd` to navigate to their home directory. Then type `code .eslintrc.json`, which will create a new file called `.eslintrc.json` and open it in VSCode. Students should paste the contents of the `.eslintrc.json` file, which is located in the root of the class repository.
-
-[-top-](#top)
 
 ## Additional VSCode Settings
 In the lower left-hand corner of VSCode, click on the gear icon and select "Settings". Use the search functionality to set the following values:
@@ -90,11 +52,7 @@ In the lower left-hand corner of VSCode, click on the gear icon and select "Sett
 * "editor.wordWrap" should be set to "on"
 * "editor.minimap.enabled" should be set to true
 
-[-top-](#top)
-
-<a id="readings"></a>
-
-## Go over the assigned readings
+## Readings
 
 **HTML Chapter 1: "Structure"**
 
@@ -141,15 +99,3 @@ In the lower left-hand corner of VSCode, click on the gear icon and select "Sett
 - p.44 	How HTML, CSS, JS work together			
 - p.45 	Progressive enhancement
 - p.51 	JavaScript runs where it is found in the HTML
-
-We also need to discuss the role of *pseudocode*, which is something the Duckett text does not cover very well.
-
-[-top-](#top)
-
-<a id="code"></a>
-
-## Live code
-
-This code demo is to help students be ready to complete the first assignment and also to show off some functionality of the REPL and Chrome Developer Tools. This demo should also reveal any lingering issues with student computer setups.
-
-[-top-](#top)
