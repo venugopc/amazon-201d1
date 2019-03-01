@@ -31,9 +31,14 @@ As a result of completing Lecture 6 of Code 201, students will:
 
 [-top-](#top)
 
-### Notes on the assigned readings
+### Notes on Domain Modeling
 
-**Article on Domain Modeling (Sobol)**
+**"Understanding The Problem Domain Is The Hardest Part Of Programming" (Sonmez)**
+
+- Why problem domains are hard
+- Programming is easy if you understand the problem domain
+
+**More on Domain Modeling**
 
 - Domain modeling is the process of creating a conceptual model for a specific problem. And a domain model that's articulated well can verify and validate your understanding of that problem.
 - Here's some tips to follow when building your own domain models:
@@ -43,11 +48,6 @@ As a result of completing Lecture 6 of Code 201, students will:
   - Create instances using the new keyword followed by a call to a constructor function.
   - Store the newly created object in a variable so you can access its properties and methods from outside.
   - Use the this variable within methods so you can access the object's properties and methods from inside.
-
-**"Understanding The Problem Domain Is The Hardest Part Of Programming" (Sonmez)**
-
-- Why problem domains are hard
-- Programming is easy if you understand the problem domain
 
 **JS Chapter 3: "Functions, Objects, and Methods" (pp.100-144)**
 
